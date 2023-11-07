@@ -1,0 +1,85 @@
+:root {
+  --primary-color: #004792;
+  --secondary-color: #1173dc;
+  --bg-color: rgba(0, 124, 206, 0.3);
+  --link-color: #004792;
+  --shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Playpen Sans", cursive;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 56px;
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+a {
+  all: unset;
+  color: var(--link-color);
+  text-underline-offset: 6px;
+}
+
+.bg-color {
+  background: var(--bg-color);
+}
+
+.greeting-container {
+  width: 60%;
+  margin: 80px auto 0;
+  text-align: center;
+}
+
+.link-container {
+  margin-top: 50px;
+}
+
+.about-button,
+.contact-button {
+  text-align: center;
+  display: block;
+  width: 60%;
+  font-size: 12px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 5px auto;
+  color: var(--primary-color);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--primary-color);
+}
+
+.about-button {
+  background-color: var(--primary-color);
+  color: whitesmoke;
+}
+
+.contact-button:hover {
+  background-color: var(--primary-color);
+  color: whitesmoke;
+  transition: all 250ms ease-in-out;
+}
+
+.home-button {
+  text-decoration-line: underline;
+}
+
+.title {
+  font-weight: 500;
+}
