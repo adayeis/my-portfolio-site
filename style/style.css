@@ -53,14 +53,9 @@ a {
 
 .about-button,
 .contact-button {
-  text-align: center;
-  display: block;
-  width: 60%;
   font-size: 12px;
   padding: 10px 20px;
   border-radius: 30px;
-  margin: 5px auto;
-  color: var(--primary-color);
   box-shadow: var(--shadow);
   border: 1px solid var(--primary-color);
 }
@@ -74,6 +69,35 @@ a {
   background-color: var(--primary-color);
   color: whitesmoke;
   transition: all 250ms ease-in-out;
+}
+
+.launch-button {
+  font-size: 12px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 5px auto;
+  color: var(--primary-color);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: whitesmoke;
+}
+
+@media (max-width: 768px) {
+  .launch-button {
+    text-align: center;
+    display: block;
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 58px;
+  }
+
+  h3,
+  p {
+    text-align: center;
+  }
 }
 
 .home-button {
