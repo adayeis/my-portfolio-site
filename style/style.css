@@ -1,4 +1,7 @@
 :root {
+  --default-font-family: "Josefin Sans", sans-serif;
+  --el-yazisi-font-family: "Edu TAS Beginner", cursive;
+  --btn-font-family: "VT323", monospace;
   --primary-color: #004792;
   --secondary-color: #1173dc;
   --bg-color: rgba(0, 124, 206, 0.3);
@@ -13,97 +16,17 @@
 }
 
 body {
-  font-family: "Playpen Sans", cursive;
+  font-family: var(--default-font-family);
 }
 
-h2 {
-  font-weight: 500;
-  font-size: 56px;
+header {
+  text-align: center;
+  padding: 180px 10px;
+  background-color: var(--bg-color);
 }
 
 h1 {
+  font-family: var(--ada-yeis-font-family);
   font-size: 96px;
   font-weight: 600;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.5em;
-}
-
-a {
-  all: unset;
-  color: var(--link-color);
-  text-underline-offset: 6px;
-}
-
-.bg-color {
-  background: var(--bg-color);
-}
-
-.greeting-container {
-  width: 60%;
-  margin: 80px auto 0;
-  text-align: center;
-}
-
-.link-container {
-  margin-top: 50px;
-}
-
-.about-button,
-.contact-button {
-  font-size: 12px;
-  padding: 10px 20px;
-  border-radius: 30px;
-  box-shadow: var(--shadow);
-  border: 1px solid var(--primary-color);
-}
-
-.about-button {
-  background-color: var(--primary-color);
-  color: whitesmoke;
-}
-
-.contact-button:hover {
-  background-color: var(--primary-color);
-  color: whitesmoke;
-  transition: all 250ms ease-in-out;
-}
-
-.launch-button {
-  font-size: 12px;
-  padding: 10px 20px;
-  border-radius: 30px;
-  margin: 5px auto;
-  color: var(--primary-color);
-  box-shadow: var(--shadow);
-  border: 1px solid var(--primary-color);
-  background-color: var(--primary-color);
-  color: whitesmoke;
-}
-
-@media (max-width: 768px) {
-  .launch-button {
-    text-align: center;
-    display: block;
-    width: 60%;
-  }
-
-  h1 {
-    font-size: 58px;
-  }
-
-  h3,
-  p {
-    text-align: center;
-  }
-}
-
-.home-button {
-  text-decoration-line: underline;
-}
-
-.title {
-  font-weight: 500;
 }
