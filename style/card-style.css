@@ -14,6 +14,7 @@ article .back {
   bottom: 0;
   text-align: center;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   background: #ffffff;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
@@ -25,6 +26,7 @@ article .back {
 
 .back {
   transform: rotateY(180deg);
+  -webkit-transform-origin-y: 180deg;
 }
 
 input {
@@ -34,10 +36,12 @@ input {
 
 input:checked ~ article .back {
   transform: rotateY(0);
+  -webkit-transform-origin-y: 180deg;
 }
 
 input:checked ~ article .front {
   transform: rotateY(-180deg);
+  -webkit-transform-origin-y: 180deg;
 }
 
 img {
