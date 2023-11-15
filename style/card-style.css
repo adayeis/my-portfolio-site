@@ -47,3 +47,16 @@ input:checked ~ article .front {
 img {
   width: 100%;
 }
+
+@media (min-width: 1200px) {
+  article {
+    width: 360px;
+    height: 400px;
+  }
+}
+@media (max-width: 767px) {
+  article {
+    width: 400px;
+    height: 420px;
+  }
+}
