@@ -62,3 +62,10 @@ article img {
     height: 420px;
   }
 }
+
+@media (max-width: 422px) {
+  article {
+    width: 300px;
+    height: 320px;
+  }
+}
