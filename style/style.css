@@ -48,7 +48,21 @@ h3 {
 
 .btn-branding {
   border: 1px solid var(--primary-color);
-  color: var(--primary-color);
+  color: whitesmoke;
   font-family: var(--btn-font-family);
   font-size: 14px;
+  padding: 3px 5px;
+  border-radius: 3px;
+  background-color: var(--primary-color);
+  transition: all 150ms ease-in-out;
+}
+
+.btn-branding:hover {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 200ms ease-in-out;
 }
