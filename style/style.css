@@ -113,9 +113,14 @@ footer p {
   background-color: var(--bg-color);
 }
 
-.header {
+.work-header {
   text-align: start;
   padding: 80px 50px;
+}
+
+.contact-header {
+  text-align: start;
+  padding: 60px 50px;
 }
 
 .btn-branding {
